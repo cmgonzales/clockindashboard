@@ -6,50 +6,83 @@
   z-index: 1050;
   background-color: rgb(255, 255, 255);
   padding: 1.5rem;
-  padding-top: 0; }
-  .sidebar-fixed .list-group .active {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    -webkit-border-radius: 5px;
-    border-radius: 5px; }
-  .sidebar-fixed .logo-wrapper {
-    padding: 2.5rem; }
-    .sidebar-fixed .logo-wrapper img {
-      max-height: 50px; }
+  padding-top: 0;
+}
 
-    .clock{
-        text-align: center;
-         margin-top: 10px;
-     }
-     
-     #hour{
-         font-size: 3em;
-         font-family: 'Oswald', sans-serif;
-         color: black;
-         margin-top: 8px;
-     }
-     #date{
-       text-align: right;
-       width: 100%;
-     }
-     .button{
-       width: 80%;
-     }
-     .time{
-       margin-top: 30px;
-       margin-bottom: 25px;
-     }
-     #login{
-       margin-top: 15px;
-       position: static;
-     }
-    
+.sidebar-fixed .list-group .active {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.sidebar-fixed .logo-wrapper {
+  padding: 2.5rem;
+}
+
+.sidebar-fixed .logo-wrapper img {
+  max-height: 50px;
+}
+
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.clock {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#hour {
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  margin-top: 8px;
+}
+
+#date {
+  text-align: right;
+  width: 100%;
+}
+
+.button {
+  width: 80%;
+}
+
+.time {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+#login {
+  margin-top: 15px;
+  position: static;
+}
+
 @media (min-width: 1200px) {
+
   .navbar,
   .page-footer,
   main {
-    padding-left: 270px; } }
+    padding-left: 270px;
+  }
+}
 
 @media (max-width: 1199.98px) {
   .sidebar-fixed {
-    display: none; } }
+    display: none;
+  }
+}
