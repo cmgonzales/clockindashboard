@@ -23,6 +23,7 @@
         background-repeat:  no-repeat;
         background-size: cover;
         background-color: black;    
+  
     }
     .clock{
         text-align: center;
@@ -43,7 +44,7 @@
      }
      .time{
        margin-top: 30px;
-       margin-bottom: 30px;
+       margin-bottom: 25px;
      }
      #login{
        margin-top: 15px;
