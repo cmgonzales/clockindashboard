@@ -4,6 +4,8 @@ function mytimer() {
   return hour;
 }
 
+//minutes
+
 function myminutes() {
   var minutes = new Date().getMinutes();
   minutes = minutes < 10 ? "0" + minutes : minutes;
